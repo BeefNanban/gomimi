@@ -29,6 +29,10 @@ Material:
         m_Texture: {fileID: 2800000, guid: 468b3dc26288c7042acab8c1413ff48a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BackTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _BaseMap:
         m_Texture: {fileID: 2800000, guid: 468b3dc26288c7042acab8c1413ff48a, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -49,6 +53,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _DownTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -57,7 +65,15 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _FrontTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _HighColor_Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LeftTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -97,6 +113,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _RightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _Set_1st_ShadePosition:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -113,6 +133,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _UpTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
     - _1st2nd_Shades_Feather: 0.04
     - _Add_Antipodean_RimLight: 1
@@ -125,6 +149,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Exposure: 1
     - _Farthest_Distance: 10
     - _GI_Intensity: 0
     - _GlossMapScale: 1
@@ -165,6 +190,7 @@ Material:
     - _RimLight_Power: 0.105
     - _Rotate_MatCapUV: 0
     - _Rotate_NormalMapForMatCapUV: 0
+    - _Rotation: 0
     - _Set_SystemShadowsToBase: 0
     - _ShadeColor_Step: 0.204
     - _SmoothnessTextureChannel: 0
@@ -192,3 +218,4 @@ Material:
     - _MatCapColor: {r: 1, g: 1, b: 1, a: 1}
     - _Outline_Color: {r: 0.70941705, g: 0.7016652, b: 0.9264706, a: 1}
     - _RimLightColor: {r: 0.39705878, g: 1, b: 0.922, a: 1}
+    - _Tint: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
